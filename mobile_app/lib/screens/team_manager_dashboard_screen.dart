@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lpl_auction_app/app_theme.dart';
 import 'package:lpl_auction_app/widgets/stats_card.dart';
+import 'package:lpl_auction_app/widgets/custom_network_image.dart'; // Add Import
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:lpl_auction_app/widgets/user_profile_button.dart';
 import 'package:lpl_auction_app/screens/player_management_screen.dart';
@@ -116,12 +117,19 @@ class _TeamManagerDashboardScreenState
               accountEmail: Text(_userEmail),
               currentAccountPicture: CircleAvatar(
                 backgroundColor: Colors.white,
-                backgroundImage:
-                    _teamLogo != null ? NetworkImage(_teamLogo!) : null,
-                child: _teamLogo == null
-                    ? const Icon(Icons.shield,
-                        size: 40, color: AppColors.primary)
-                    : null,
+                child: _teamLogo != null
+                    ? ClipOval(
+                        child: CustomNetworkImage(
+                          imageUrl: _teamLogo!,
+                          width: double.infinity,
+                          height: double.infinity,
+                          fit: BoxFit.cover,
+                          errorWidget: const Icon(Icons.shield,
+                              size: 40, color: AppColors.primary),
+                        ),
+                      )
+                    : const Icon(Icons.shield,
+                        size: 40, color: AppColors.primary),
               ),
               decoration: const BoxDecoration(color: AppColors.primary),
             ),
@@ -157,14 +165,24 @@ class _TeamManagerDashboardScreenState
       appBar: AppBar(
         leading: Builder(
           builder: (context) => IconButton(
-            icon: CircleAvatar(
-              radius: 16,
-              backgroundColor: Colors.white,
-              backgroundImage:
-                  _teamLogo != null ? NetworkImage(_teamLogo!) : null,
-              child: _teamLogo == null
-                  ? const Icon(Icons.shield, size: 16, color: AppColors.primary)
-                  : null,
+            icon: Container(
+              width: 32,
+              height: 32,
+              decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.white,
+              ),
+              child: ClipOval(
+                child: _teamLogo != null
+                    ? CustomNetworkImage(
+                        imageUrl: _teamLogo!,
+                        fit: BoxFit.cover,
+                        errorWidget: const Icon(Icons.shield,
+                            size: 16, color: AppColors.primary),
+                      )
+                    : const Icon(Icons.shield,
+                        size: 16, color: AppColors.primary),
+              ),
             ),
             onPressed: () => Scaffold.of(context).openDrawer(),
           ),

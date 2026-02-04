@@ -45,6 +45,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/players', playerRoutes);
 app.use('/api/teams', teamRoutes);
 app.use('/api/auction', auctionRoutes);
+app.use('/api/proxy', require('./routes/proxyRoutes'));
 
 // Socket.IO Logic
 io.on('connection', (socket) => {

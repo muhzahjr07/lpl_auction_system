@@ -5,7 +5,7 @@ import 'package:lpl_auction_app/services/api_service.dart';
 import 'package:lpl_auction_app/app_theme.dart';
 import 'package:lpl_auction_app/widgets/user_profile_button.dart';
 import 'package:lpl_auction_app/widgets/player_hero_card.dart';
-import 'package:lpl_auction_app/utils/image_helper.dart';
+import 'package:lpl_auction_app/widgets/custom_network_image.dart';
 
 class AuctioneerScreen extends StatefulWidget {
   final bool isViewer;
@@ -596,12 +596,16 @@ class _AuctioneerScreenState extends State<AuctioneerScreen> {
                               width: 24,
                               height: 24,
                               decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(4),
-                                  image: DecorationImage(
-                                      image: ImageHelper.getTeamLogoProvider(
-                                          _currentAuctionState![
-                                              'lastBidderTeamLogo']),
-                                      fit: BoxFit.cover)),
+                                borderRadius: BorderRadius.circular(4),
+                              ),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(4),
+                                child: CustomNetworkImage(
+                                  imageUrl: _currentAuctionState![
+                                      'lastBidderTeamLogo'],
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
                             )
                           : Container(
                               width: 24,
@@ -686,11 +690,15 @@ class _AuctioneerScreenState extends State<AuctioneerScreen> {
                         width: 32,
                         height: 32,
                         decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            image: DecorationImage(
-                                image: ImageHelper.getTeamLogoProvider(
-                                    bid['teamLogo']),
-                                fit: BoxFit.cover)),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(8),
+                          child: CustomNetworkImage(
+                            imageUrl: bid['teamLogo'],
+                            fit: BoxFit.cover,
+                          ),
+                        ),
                       )
                     : Container(
                         width: 32,
@@ -803,9 +811,19 @@ class _PlayerSelectionWidgetState extends State<_PlayerSelectionWidget> {
                     itemBuilder: (context, index) {
                       final p = _filteredPlayers[index];
                       return ListTile(
-                        leading: CircleAvatar(
-                          backgroundImage: NetworkImage(p['image_url'] ??
-                              "https://lh3.googleusercontent.com/aida-public/AB6AXuBZkQ5E_6hq-vok3PywSsdtdvvAqgp_wT2GE1_Ha121kZrKmDAZrmcejDZ5jhUsF6KFLJpM4Vi4AgAdzPw1MvJddSviZ2zjIIgMLHt_ZDfTA_eByeiUDeCFa5T2_kDfD8yJGi1IOTxvTxd-_HGbiVkfXCd0lZSp-m9Uz16EnNEo87TvHHRlZRM8LERkPAXdfJeobt5cCRvjnNA7JZSj_dkWdGf1X0SkbAx7HuTl5J-0X1DMKjPHN7Ugf3AUy3mjvQOqBmR7p-E9MFNT"),
+                        leading: Container(
+                          width: 40,
+                          height: 40,
+                          decoration:
+                              const BoxDecoration(shape: BoxShape.circle),
+                          child: ClipOval(
+                            child: CustomNetworkImage(
+                              imageUrl: p['image_url'] ??
+                                  "https://lh3.googleusercontent.com/aida-public/AB6AXuBZkQ5E_6hq-vok3PywSsdtdvvAqgp_wT2GE1_Ha121kZrKmDAZrmcejDZ5jhUsF6KFLJpM4Vi4AgAdzPw1MvJddSviZ2zjIIgMLHt_ZDfTA_eByeiUDeCFa5T2_kDfD8yJGi1IOTxvTxd-_HGbiVkfXCd0lZSp-m9Uz16EnNEo87TvHHRlZRM8LERkPAXdfJeobt5cCRvjnNA7JZSj_dkWdGf1X0SkbAx7HuTl5J-0X1DMKjPHN7Ugf3AUy3mjvQOqBmR7p-E9MFNT",
+                              fit: BoxFit.cover,
+                              errorWidget: const Icon(Icons.person),
+                            ),
+                          ),
                         ),
                         title: Text(p['name']),
                         subtitle:

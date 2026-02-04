@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lpl_auction_app/app_theme.dart';
+import 'package:lpl_auction_app/services/api_service.dart';
+import 'package:lpl_auction_app/widgets/custom_network_image.dart';
 
 class PlayerHeroCard extends StatelessWidget {
   final String name;
@@ -32,8 +34,8 @@ class PlayerHeroCard extends StatelessWidget {
     // Placeholder image logic
     String displayUrl = imageUrl;
     if (imageUrl.isNotEmpty && !Uri.parse(imageUrl).isAbsolute) {
-      displayUrl =
-          'https://fritz-diminishable-disenchantedly.ngrok-free.dev$imageUrl';
+      final baseUrl = ApiService.baseUrl.replaceAll('/api', '');
+      displayUrl = '$baseUrl$imageUrl';
     }
 
     final hasValidImage = displayUrl.isNotEmpty;
@@ -62,12 +64,10 @@ class PlayerHeroCard extends StatelessWidget {
                   height: 250,
                   width: double.infinity,
                   child: hasValidImage
-                      ? Image.network(
-                          displayUrl,
+                      ? CustomNetworkImage(
+                          imageUrl: displayUrl,
                           fit: BoxFit.cover,
-                          alignment: Alignment.topCenter,
-                          errorBuilder: (context, error, stackTrace) =>
-                              Container(
+                          errorWidget: Container(
                             color: Colors.grey[800],
                             child: const Icon(Icons.person,
                                 size: 80, color: Colors.white54),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lpl_auction_app/app_theme.dart';
 import 'package:lpl_auction_app/services/api_service.dart';
+import 'package:lpl_auction_app/widgets/custom_network_image.dart'; // Add Import
 
 class PlayerManagementScreen extends StatefulWidget {
   final bool isReadOnly;
@@ -566,14 +567,21 @@ class _PlayerManagementScreenState extends State<PlayerManagementScreen> {
           children: [
             Stack(
               children: [
-                CircleAvatar(
-                  radius: 30,
-                  backgroundImage: player['image_url'] != null
-                      ? NetworkImage(player['image_url'])
-                      : null,
-                  child: player['image_url'] == null
-                      ? const Icon(Icons.person)
-                      : null,
+                Container(
+                  width: 60,
+                  height: 60,
+                  decoration: const BoxDecoration(
+                    shape: BoxShape.circle,
+                  ),
+                  child: ClipOval(
+                    child: player['image_url'] != null
+                        ? CustomNetworkImage(
+                            imageUrl: player['image_url'],
+                            fit: BoxFit.cover,
+                            errorWidget: const Icon(Icons.person),
+                          )
+                        : const Icon(Icons.person),
+                  ),
                 ),
                 Positioned(
                   right: 0,

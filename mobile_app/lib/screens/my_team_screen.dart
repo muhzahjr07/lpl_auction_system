@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lpl_auction_app/services/api_service.dart';
 import 'package:lpl_auction_app/app_theme.dart';
-import 'package:lpl_auction_app/utils/image_helper.dart';
+import 'package:lpl_auction_app/widgets/custom_network_image.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MyTeamScreen extends StatefulWidget {
@@ -138,10 +138,19 @@ class _MyTeamScreenState extends State<MyTeamScreen> {
             CircleAvatar(
               radius: 40,
               backgroundColor: AppColors.primary.withValues(alpha: 0.1),
-              backgroundImage: ImageHelper.getTeamLogoProvider(logoUrl),
-              child: logoUrl == null
-                  ? const Icon(Icons.shield, size: 40, color: AppColors.primary)
-                  : null,
+              child: logoUrl != null
+                  ? ClipOval(
+                      child: CustomNetworkImage(
+                        imageUrl: logoUrl,
+                        width: double.infinity,
+                        height: double.infinity,
+                        fit: BoxFit.cover,
+                        errorWidget: const Icon(Icons.shield,
+                            size: 40, color: AppColors.primary),
+                      ),
+                    )
+                  : const Icon(Icons.shield,
+                      size: 40, color: AppColors.primary),
             ),
             const SizedBox(height: 16),
             Text(
@@ -238,11 +247,19 @@ class _MyTeamScreenState extends State<MyTeamScreen> {
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
       child: ListTile(
-        leading: CircleAvatar(
-          backgroundImage: player['image_url'] != null
-              ? NetworkImage(player['image_url'])
-              : null,
-          child: player['image_url'] == null ? const Icon(Icons.person) : null,
+        leading: Container(
+          width: 40,
+          height: 40,
+          decoration: const BoxDecoration(shape: BoxShape.circle),
+          child: ClipOval(
+            child: player['image_url'] != null
+                ? CustomNetworkImage(
+                    imageUrl: player['image_url'],
+                    fit: BoxFit.cover,
+                    errorWidget: const Icon(Icons.person),
+                  )
+                : const Icon(Icons.person),
+          ),
         ),
         title: Text(player['name'] ?? 'Unknown',
             style: const TextStyle(fontWeight: FontWeight.bold)),
