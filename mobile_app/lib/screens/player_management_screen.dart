@@ -609,7 +609,6 @@ class _PlayerManagementScreenState extends State<PlayerManagementScreen> {
                   const SizedBox(height: 4),
                   Row(
                     children: [
-                      // Price Display Logic
                       Text(
                           isSold
                               ? '\$${player['sold_price'] ?? player['base_price']}'
@@ -628,7 +627,6 @@ class _PlayerManagementScreenState extends State<PlayerManagementScreen> {
                             style:
                                 TextStyle(fontSize: 10, color: Colors.green)),
                       ],
-
                       if (isSold && player['team'] != null) ...[
                         const SizedBox(width: 8),
                         const Icon(Icons.circle, size: 4, color: Colors.grey),
@@ -639,33 +637,6 @@ class _PlayerManagementScreenState extends State<PlayerManagementScreen> {
                       ],
                     ],
                   ),
-                  // Price Display Logic
-                  Text(
-                      isSold
-                          ? '\$${player['sold_price'] ?? player['base_price']}'
-                          : '\$${player['base_price']}',
-                      style: TextStyle(
-                        fontFamily: 'monospace',
-                        fontWeight: FontWeight.bold,
-                        color: isSold ? Colors.green : Colors.grey[700],
-                        decoration: isSold
-                            ? null
-                            : null, // Could add strikethrough to base if sold, but user asked to UPDATE it.
-                      )),
-                  if (isSold) ...[
-                    const SizedBox(width: 4),
-                    const Text('(Sold)',
-                        style: TextStyle(fontSize: 10, color: Colors.green)),
-                  ],
-
-                  if (isSold && player['team'] != null) ...[
-                    const SizedBox(width: 8),
-                    const Icon(Icons.circle, size: 4, color: Colors.grey),
-                    const SizedBox(width: 8),
-                    Text(player['team']['team_name'] ?? '',
-                        style:
-                            const TextStyle(fontSize: 12, color: Colors.green)),
-                  ],
                   const SizedBox(height: 4),
                   // Stats Display
                   Wrap(
