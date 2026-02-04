@@ -1,0 +1,81 @@
+player_id,name,role,country,base_price,status,sold_price,image_url,total_runs,strike_rate,wickets,economy_rate
+1,Wanindu Hasaranga,"ALL_ROUNDER",Sri Lanka,100000,UNSOLD,NULL,https://media.gettyimages.com/id/2155432491/photo/sri-lanka-portraits-icc-mens-t20-cricket-world-cup-west-indies-usa-2024.jpg?s=1024x1024&w=gi&k=20&c=z42LGFKXVfrQInHcP3EZohx7UdE0CIgNx630eQwVE8c=,1677,146.67,163,8.95
+2,Babar Azam,"BATSMAN",Pakistan,120000,UNSOLD,NULL,https://st3.cricketcountry.com/wp-content/uploads/2024/02/Babar-Azam-1.jpg,7231,147.09,8,9.02
+3,David Miller,"BATSMAN",South Africa,110000,UNSOLD,NULL,https://c.cricketpakistan.com.pk/images/posts/cover_1719902690jbb.jpg,4362,151.41,3,7.26
+4,Shakib Al Hasan,"ALL_ROUNDER",Bangladesh,100000,UNSOLD,NULL,https://cricketaddictor.com/images/2024/ShakibT20WC.webp?q=80,4939,130.71,51,8.62
+5,Dasun Shanaka,"ALL_ROUNDER",Sri Lanka,80000,UNSOLD,NULL,https://adaderanaenglish.s3.amazonaws.com/1654970667-Dasun-Shanaka-Sri-Lanka-Australia-3rd-T20-match-in-Pallekele-L.jpg,3094,139.15,134,7.65
+6,Pathum Nissanka,"BATSMAN",Sri Lanka,70000,UNSOLD,NULL,https://srilankacricket.lk/storage/2024/02/Pathum-Nissanka-100-runs_VAK_2360-E-1.jpg,8169,146.16,6,8.62
+7,Charith Asalanka,"BATSMAN",Sri Lanka,65000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAfNwV7s5j3_5OSwmdNJXCzsGzScAPcaUyFQ&s,7418,141.70,6,10.00
+8,Kusal Perera,"WICKET_KEEPER",Sri Lanka,75000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ906TogmtkHWKHB_FaOfsOjsYnvXEGwb0fWQ&s,4961,137.14,0,0
+9,Kusal Mendis,"WICKET_KEEPER",Sri Lanka,75000,UNSOLD,NULL,https://srilankacricket.lk/storage/2025/07/Copy-of-Kusal-Mendis-50-Runs_VK92157-2.jpg,5138,134.17,0,0
+10,Angelo Mathews,"ALL_ROUNDER",Sri Lanka,50000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREs-vn-KHOklS5B-XwtEw4ulWz3Q9RStqY_w&s,4022,148.38,194,7.71
+11,Dhananjaya de Silva,"ALL_ROUNDER",Sri Lanka,60000,UNSOLD,NULL,https://i0.wp.com/crictoday.com/wp-content/uploads/2023/06/1638468643_dd.jpg?fit=1200%2C675&ssl=1,3233,143.77,66,7.62
+12,Maheesh Theekshana,"BOWLER",Sri Lanka,80000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe7nOQTyH9CPusnq07LgzN5alWt51KnIQ3zg&s,577,92.39,178,7.17
+13,Matheesha Pathirana,"BOWLER",Sri Lanka,75000,UNSOLD,NULL,https://www.newswire.lk/wp-content/uploads/2024/05/Screenshot_20240505_161339_Facebook.jpg,284,91.21,333,8.01
+14,Dilshan Madushanka,"BOWLER",Sri Lanka,65000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4sEm6pMOrm9H1_4XqKlpztWv7soPQCEA1Ew&s,178,116.58,363,8.44
+15,Dushmantha Chameera,"BOWLER",Sri Lanka,70000,UNSOLD,NULL,https://www.thepapare.com/wp-content/uploads/Dushmantha-Chameera-52-1.jpg,525,117.64,196,6.80
+16,Kasun Rajitha,"BOWLER",Sri Lanka,50000,UNSOLD,NULL,https://srilankacricket.lk/storage/2022/12/Copy-of-Kasun-Rajitha-celebrates_LPL1832-1.jpg,389,102.04,246,7.05
+17,Chamika Karunaratne,"ALL_ROUNDER",Sri Lanka,55000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTi3UTPMVtZ0tYwGGANj8UKl9M82GE4Pvrvw&s,2365,140.21,85,7.96
+18,Avishka Fernando,"BATSMAN",Sri Lanka,60000,UNSOLD,NULL,https://srilankacricket.lk/storage/2023/07/Avishka-fernando-for-Sri-Lanka-A-Team-vs-Bangladesh-A-at-SSC.jpg,5462,122.05,9,7.10
+19,Sadeera Samarawickrama,"WICKET_KEEPER",Sri Lanka,55000,UNSOLD,NULL,https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/358200/358285.6.jpg,5369,138.65,0,0
+20,Dunith Wellalage,"ALL_ROUNDER",Sri Lanka,40000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzsR8LJzJ5hwxMVoSB_1z2SdLuhrus59pZA&s,2328,145.63,141,7.44
+21,Bhanuka Rajapaksa,"BATSMAN",Sri Lanka,55000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUYirSBxdkuwFXL_P8l-ZV5yRDoyb_Oo_bg&s,4189,139.39,3,9.19
+22,Nuwan Thushara,"BOWLER",Sri Lanka,45000,UNSOLD,NULL,https://i0.wp.com/crictoday.com/wp-content/uploads/2024/01/quint-hindi_2023-12_2da1129a-1cea-4bf4-a161-618d90d44dc8_Snapinsta_app_408237553_1049613866160793_2637854266655863173_n_1080-1.webp?fit=1200%2C676&ssl=1,420,89.28,294,7.75
+23,Akila Dananjaya,"BOWLER",Sri Lanka,40000,UNSOLD,NULL,https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/292800/292858.9.jpg,216,91.21,337,8.44
+24,Isuru Udana,"ALL_ROUNDER",Sri Lanka,45000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA2GIs6ujxU5cOZAkBO3CGJyIEqVRSqJudUg&s,3887,134.45,169,7.11
+25,Dinesh Chandimal,"WICKET_KEEPER",Sri Lanka,45000,UNSOLD,NULL,"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_800,q_50/lsci/db/PICTURES/CMS/388000/388040.6.jpg",5256,143.07,0,0
+26,Lahiru Kumara,"BOWLER",Sri Lanka,50000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp41_9m8-SwlG802b_aIJaCxiTpwmCaUorgw&s,300,118.82,298,6.24
+27,Binura Fernando,"BOWLER",Sri Lanka,45000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbBzruYYmtEIxeH6ip_oe9zxEdb8I5HPQIQ&s,362,88.98,376,7.99
+28,Pramod Madushan,"BOWLER",Sri Lanka,40000,UNSOLD,NULL,"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_480,q_50/esci/media/motion/2022/1101/dm_221101_NET_CRIC_t20wc_sl-change_maruti_global/dm_221101_NET_CRIC_t20wc_sl-change_maruti_global.jpg",405,85.69,241,6.87
+29,Jeffrey Vandersay,"BOWLER",Sri Lanka,40000,UNSOLD,NULL,https://www.sacricketmag.com/wp-content/uploads/2024/08/Jeffrey-Vandersay-4-Aug-2024-@OfficialSLC.jpg,517,84.26,385,7.24
+30,Ramesh Mendis,"ALL_ROUNDER",Sri Lanka,40000,UNSOLD,NULL,https://srilankacricket.lk/storage/2023/02/Ramesh-Mendis-4.jpg,1294,133.48,67,8.55
+31,Fakhar Zaman,"BATSMAN",Pakistan,85000,UNSOLD,NULL,https://e0.365dm.com/18/08/2048x1152/skysports-pakistan-fakhar-zaman_4398479.jpg?20180823100252,2427,131.44,10,9.86
+32,Iftikhar Ahmed,"BATSMAN",Pakistan,60000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3b36X9xZfm5RRmv1x3yMQXNdw9VTssnJNyg&s,6240,128.89,3,9.38
+33,Rahmanullah Gurbaz,"WICKET_KEEPER",Afghanistan,70000,UNSOLD,NULL,https://amu.tv/wp-content/uploads/2024/11/Gurbaz-1.jpg,7095,131.48,0,0
+34,Naseem Shah,"BOWLER",Pakistan,90000,UNSOLD,NULL,https://miro.medium.com/1*k6E9UXny3uWoA-pWr72rYw.jpeg,470,116.79,310,6.12
+35,Tabraiz Shamsi,"BOWLER",South Africa,80000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXhIlJ-f5uncSIe9KAKiQKuW6xsuywwv3vVg&s,356,114.54,205,8.39
+36,Mohammad Nabi,"ALL_ROUNDER",Afghanistan,65000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtN6ueJojp5rlEIuEFSNEkZ5E9vi5CoHvy9Q&s,1874,145.49,81,7.31
+37,James Neesham,"ALL_ROUNDER",New Zealand,70000,UNSOLD,NULL,https://nccc.co.uk/wp-content/uploads/2022/01/GettyImages-1308007166.jpg,3061,142.34,80,8.18
+38,David Wiese,"ALL_ROUNDER",Namibia,50000,UNSOLD,NULL,https://e0.365dm.com/16/08/2048x1152/david-wiese-south-africa-all-rounder_3757201.jpg?20160803153131,3701,142.09,55,8.84
+39,Shoaib Malik,"ALL_ROUNDER",Pakistan,60000,UNSOLD,NULL,https://i.dawn.com/primary/2021/01/5ffbd9607975a.jpg,2261,143.43,129,8.02
+40,Mohammad Amir,"BOWLER",Pakistan,70000,UNSOLD,NULL,https://ichef.bbci.co.uk/ace/standard/1440/cpsprodpb/d924/live/c58e8610-2670-11f0-af27-090e238d1774.jpg,386,105.20,334,7.90
+41,Chris Lynn,"BATSMAN",Australia,75000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6m4ac_NUTk4R7SI8SBQ8_gYMeZdo4O9ktGw&s,6965,143.48,7,7.93
+42,Martin Guptill,"BATSMAN",New Zealand,70000,UNSOLD,NULL,https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/285600/285610.4.png,7879,147.35,8,7.96
+43,Ben Cutting,"ALL_ROUNDER",Australia,55000,UNSOLD,NULL,https://upload.wikimedia.org/wikipedia/commons/e/e0/Brisbane_Heat_vs_Melbourne_Stars_T20_15.jpg,2991,149.00,124,8.47
+44,Tim Seifert,"WICKET_KEEPER",New Zealand,60000,UNSOLD,NULL,https://srilankacricket.lk/storage/2023/08/Tim-Seifert-Bat-11.jpg,7861,133.39,0,0
+45,Mujeeb Ur Rahman,"BOWLER",Afghanistan,75000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSn69dmMhBG1dVT_xOVnAMlO4RsCz8y2gHQ&s,376,97.02,375,6.16
+46,Fazalhaq Farooqi,"BOWLER",Afghanistan,70000,UNSOLD,NULL,https://images.icc-cricket.com/image/upload/t_ratio21_9-size30-webp/prd/GettyImages-1994068928_1,329,81.15,379,6.79
+47,Noor Ahmad,"BOWLER",Afghanistan,65000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI3noMSRpIxLZgdAXK0W49vMJSuT8o8JbndA&s,61,112.34,398,8.46
+48,Romario Shepherd,"ALL_ROUNDER",West Indies,60000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIrfmqfPhEP4KqE39dQ8JKn-QLqXb9dQjnOA&s,2399,144.76,113,8.30
+49,Jason Behrendorff,"BOWLER",Australia,60000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LGSLtfEpToHamd6gAaEyFcs9paLaNz4N4A&s,215,103.79,150,6.28
+50,Fabian Allen,"ALL_ROUNDER",West Indies,50000,UNSOLD,NULL,https://www.wisden.com/static-assets/images/players/64253.png?v=23.77,4866,136.16,150,8.65
+51,Litton Das,"WICKET_KEEPER",Bangladesh,65000,UNSOLD,NULL,https://cricketman2.com/wp-content/uploads/2025/09/Litton-Das-Captaincy-Record.webp,5145,136.56,0,0
+52,Afif Hossain,"ALL_ROUNDER",Bangladesh,50000,UNSOLD,NULL,https://crictv4u.com/wp-content/uploads/2022/06/Atif-Hossain-390-675x450.jpg.webp,3284,143.23,91,7.10
+53,Shoriful Islam,"BOWLER",Bangladesh,55000,UNSOLD,NULL,https://static.cricbuzz.com/a/img/v1/i1/c369910/i-am-really-enjoying-my-bowling-at-the-moment-shoriful.jpg?d=low&p=det,203,96.23,168,7.65
+54,Taskin Ahmed,"BOWLER",Bangladesh,60000,UNSOLD,NULL,https://criczine.cricdiction.com/wp-content/uploads/2025/04/Taskin-Ahmed.jpg,476,95.20,301,6.16
+55,Towhid Hridoy,"BATSMAN",Bangladesh,50000,UNSOLD,NULL,https://www.geosuper.tv/assets/uploads/updates/2025-04-28/43640_4279434_updates.gif,8443,151.41,1,7.76
+56,Kamindu Mendis,"BATSMAN",Sri Lanka,35000,UNSOLD,NULL,https://static.cricbuzz.com/a/img/v1/1080x608/i1/c746594/kamindu-came-up-with-a-stunning-cameo-in-the-run-chase-to-turn-sri-lankas-fortunes-around.jpg,6496,137.12,8,7.47
+57,Nuwanidu Fernando,"BATSMAN",Sri Lanka,30000,UNSOLD,NULL,https://srilankacricket.lk/storage/2022/02/Nuwanidu-Fernando-100-1-1.jpg,9242,143.94,7,7.04
+58,Sahan Arachchige,"ALL_ROUNDER",Sri Lanka,30000,UNSOLD,NULL,https://static.cricbuzz.com/a/img/v1/686x385/i1/c784674/sahan-arachchiges-69-v-bangladesh-a.jpg,1828,136.27,158,7.37
+59,Ashen Bandara,"BATSMAN",Sri Lanka,35000,UNSOLD,NULL,https://upload.wikimedia.org/wikipedia/commons/9/99/Ashen_Bandara.jpg,9921,130.08,4,7.15
+60,Janith Liyanage,"ALL_ROUNDER",Sri Lanka,30000,UNSOLD,NULL,https://img.ipl.com/upload/20251110/27e93e91f2bf51ceee5794a003547336.jpg,1990,136.89,161,7.57
+61,Dushan Hemantha,"ALL_ROUNDER",Sri Lanka,30000,UNSOLD,NULL,https://i.ytimg.com/vi/Zr68CVaSSKI/maxresdefault.jpg,1268,144.76,107,8.29
+62,Lasith Croospulle,"BATSMAN",Sri Lanka,25000,UNSOLD,NULL,https://img.ipl.com/upload/20251013/0cd53df7e4f15cefbf8039f158e93a55.jpg,7776,132.87,5,7.18
+63,Shevon Daniel,"BATSMAN",Sri Lanka,25000,UNSOLD,NULL,https://epress.lk/wp-content/uploads/2024/01/Shevon-Daniel.jpg,8166,121.21,2,8.50
+64,Vijayakanth Viyaskanth,"BOWLER",Sri Lanka,35000,UNSOLD,NULL,https://adaderanaenglish.s3.amazonaws.com/1763454141-Sri-Lanka-Cricket-SLC-Vijayakanth-Viyaskanth-6.jpg,291,84.52,152,6.35
+65,Nuwan Pradeep,"BOWLER",Sri Lanka,35000,UNSOLD,NULL,https://static.cricbuzz.com/a/img/v1/1080x608/i1/c175842/nuwan-pradeeps-world-cup-campaign-has-come-to-an-early-end.jpg,264,117.14,359,6.81
+66,Kasun Rajitha,"BOWLER",Sri Lanka,45000,UNSOLD,NULL,https://adaderanaenglish.s3.amazonaws.com/1744730865-kasun-rajitha-6.jpg,467,105.47,352,7.14
+67,Asitha Fernando,"BOWLER",Sri Lanka,40000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1JB64xXlQIDA4LkuKgKgItTy9i53umPcHmQ&s,283,118.11,303,7.44
+68,Vishwa Fernando,"BOWLER",Sri Lanka,35000,UNSOLD,NULL,https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/vishwafernandoheadshot-min_1.jpg,390,102.47,219,6.73
+69,Praveen Jayawickrama,"BOWLER",Sri Lanka,30000,UNSOLD,NULL,https://adaderanaenglish.s3.amazonaws.com/1727885684-praveen-jayawickrama.jpg,66,114.53,236,7.73
+70,Lakshan Sandakan,"BOWLER",Sri Lanka,40000,UNSOLD,NULL,https://st3.cricketcountry.com/wp-content/uploads/2017/01/lakshan.jpg,174,99.97,201,7.85
+71,Seekkuge Prasanna,"ALL_ROUNDER",Sri Lanka,30000,UNSOLD,NULL,https://www.thepapare.com/wp-content/uploads/18814922_1556050441135182_4403057985136561784_o.jpg,2485,132.12,191,7.01
+72,Chaturanga de Silva,"ALL_ROUNDER",Sri Lanka,30000,UNSOLD,NULL,https://d13ir53smqqeyp.cloudfront.net/fc-player-images/86261.png,3997,132.07,165,7.83
+73,Minod Bhanuka,"WICKET_KEEPER",Sri Lanka,30000,UNSOLD,NULL,https://www.thepapare.com/wp-content/uploads/1176.jpg,4406,143.34,0,0
+74,Lahiru Udara,"WICKET_KEEPER",Sri Lanka,25000,UNSOLD,NULL,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM5RtPIwlEqYSnVw67ovIdSpr3zDn2iYfaCA&s,6478,144.06,0,0
+75,Niroshan Dickwella,"WICKET_KEEPER",Sri Lanka,40000,UNSOLD,NULL,https://www.newswire.lk/wp-content/uploads/2024/12/Niroshan-Dickwella.jpg,2073,133.25,0,0
+76,Oshada Fernando,"BATSMAN",Sri Lanka,35000,UNSOLD,NULL,https://images.news18.com/ibnlive/uploads/2024/09/oshada-fernando-2024-09-8b110dd35d6f7d63900bfb974131c17b-16x9.jpg,6919,121.14,2,9.27
+77,Pulina Tharanga,"ALL_ROUNDER",Sri Lanka,25000,UNSOLD,NULL,https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1660406710659_2c721787-josh-inglis-1.jpeg?type=mq,2215,136.41,150,7.15
+78,Movin Subasingha,"ALL_ROUNDER",Sri Lanka,20000,UNSOLD,NULL,https://www.thepapare.com/wp-content/uploads/movin.jpg,1260,141.26,133,7.10
+79,Ravindu Fernando,"ALL_ROUNDER",Sri Lanka,20000,UNSOLD,NULL,https://srilankacricket.lk/storage/2024/01/WhatsApp-Image-2024-01-02-at-12.28.52.jpeg,2987,130.13,114,7.68
+80,Nipun Malinga,"BOWLER",Sri Lanka,20000,UNSOLD,NULL,https://img.ipl.com/upload/20250923/405deca8efe2f85f320733edc85c81b0.png,83,82.68,236,6.80
