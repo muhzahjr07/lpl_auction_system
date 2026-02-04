@@ -5,7 +5,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:lpl_auction_app/app_theme.dart';
 import 'package:lpl_auction_app/widgets/player_hero_card.dart';
 import 'package:lpl_auction_app/widgets/user_profile_button.dart';
-import 'package:lpl_auction_app/utils/image_helper.dart';
+// import 'package:lpl_auction_app/utils/image_helper.dart'; // Unused
+import 'package:lpl_auction_app/widgets/custom_network_image.dart'; // Add Import
 
 class TeamBiddingScreen extends StatefulWidget {
   const TeamBiddingScreen({super.key});
@@ -285,15 +286,23 @@ class _TeamBiddingScreenState extends State<TeamBiddingScreen> {
                         ),
                         // Team Logo/Info (Existing)
                         if (_myTeamLogo != null)
-                          CircleAvatar(
-                            backgroundImage:
-                                ImageHelper.getTeamLogoProvider(_myTeamLogo),
-                            onBackgroundImageError: (exception, stackTrace) {
-                              debugPrint('Error loading logo: $exception');
-                            },
-                            radius: 16,
+                          Padding(
+                            padding: const EdgeInsets.only(right: 8.0),
+                            child: ClipOval(
+                              child: Container(
+                                width: 32,
+                                height: 32,
+                                color: Colors.white,
+                                child: CustomNetworkImage(
+                                  imageUrl: _myTeamLogo!,
+                                  width: 32,
+                                  height: 32,
+                                  fit: BoxFit.cover,
+                                  errorWidget: const Icon(Icons.shield),
+                                ),
+                              ),
+                            ),
                           ),
-                        const SizedBox(width: 8),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
