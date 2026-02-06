@@ -10,6 +10,13 @@ A real-time auction system for the Lanka Premier League (LPL), designed to facil
 - **Player Stats:** Comprehensive player profiles with role-based statistics.
 - **Admin Dashboard:** Overview of the entire auction process.
 
+## 📸 App Screenshots
+
+|   |   |   |
+|:---:|:---:|:---:|
+| <img src="mobile_app/assets/appscreens/screen%20(1).png" width="250"> | <img src="mobile_app/assets/appscreens/screen%20(2).png" width="250"> | <img src="mobile_app/assets/appscreens/screen%20(3).png" width="250"> |
+| <img src="mobile_app/assets/appscreens/screen%20(4).png" width="250"> | <img src="mobile_app/assets/appscreens/screen%20(5).png" width="250"> | |
+
 ## 🛠️ Tech Stack
 
 - **Backend:** Node.js, Express, MySQL (Sequelize ORM), Socket.io
